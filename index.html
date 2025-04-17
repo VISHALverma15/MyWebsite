@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vishal Verma - Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .about-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 2rem;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .about-story,
+    .about-extra {
+      flex: 1 1 48%;
+    }
+  </style>
+</head>
+<body>
+  <div class="animated-bg"></div>
+
+  <header>
+    <div class="container">
+      <img src="IMAGE.jpg" alt="Profile Image" class="profile-img" />
+      <h1>Hello, I'm Vishal Verma</h1>
+      <p>Front-End Developer | UI/UX Enthusiast</p>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-container">
+          <!-- Left Column: Personal Story -->
+          <div class="about-story">
+            <p>
+              Hi! I'm Vishal Verma, a passionate front-end developer from [Your Location]. I started my journey into the world of coding after discovering the joy of building websites and turning ideas into interactive, user-friendly experiences. With a background in design, I have a unique perspective on how websites should feel as well as how they should function.
+            </p>
+            <p>
+              Over the years, I've worked with HTML, CSS, and JavaScript, and I've recently delved deeper into React and modern JavaScript frameworks. I believe in writing clean, scalable code and always strive to improve my skills by working on real-world projects and experimenting with new technologies.
+            </p>
+            <p>
+              When I'm not coding, you can find me exploring new tools, learning about UI/UX design, or collaborating on open-source projects. I'm always looking to grow and push my boundaries. Whether it's perfecting animations, building dynamic web apps, or designing custom user interfaces, I love the challenge of bringing ideas to life.
+            </p>
+          </div>
+      
+          <!-- Right Column: Tech Interests & Outside of Code -->
+          <div class="about-extra">
+            <div class="tech-interests">
+              <h3>My Tech Interests</h3>
+              <ul>
+                <li><i class="fas fa-laptop-code"></i> <strong>Progressive Web Apps (PWA)</strong> – Building seamless offline experiences.</li>
+                <li><i class="fas fa-bolt"></i> <strong>Web Performance</strong> – Optimizing loading times and smooth interactivity.</li>
+                <li><i class="fas fa-paint-brush"></i> <strong>UI/UX Design</strong> – Balancing functionality and design for better user experiences.</li>
+                <li><i class="fas fa-cloud"></i> <strong>Serverless Architecture</strong> – Exploring cloud-based solutions for modern applications.</li>
+              </ul>
+            </div>
+      
+            <div class="outside-code">
+              <h3>Outside of Code</h3>
+              <p>
+                I'm also an avid traveler and love to explore new cultures. When I'm not working on tech projects, I spend my time hiking, sketching, and reading sci-fi novels. I believe that staying curious and creative helps me approach coding in innovative ways.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+          <div>HTML5</div>
+          <div>CSS3</div>
+          <div>JavaScript</div>
+          <div>React</div>
+          <div>Tailwind CSS</div>
+          <div>Git & GitHub</div>
+          <div>REST APIs</div>
+          <div>Figma</div>
+        </div>
+      </section>
+      
+      <section id="experience">
+        <h2>Experience</h2>
+        <div class="timeline">
+          <div class="job">
+            <h3>Frontend Intern @ WebX Studio</h3>
+            <span>June 2023 - Aug 2023</span>
+            <p>Built responsive pages using React and Tailwind, collaborated with UI/UX team to improve designs.</p>
+          </div>
+          <div class="job">
+            <h3>Freelance Web Developer</h3>
+            <span>2022 - Present</span>
+            <p>Delivered clean, performant websites for small businesses and personal brands.</p>
+          </div>
+        </div>
+      </section>
+      
+      <section id="testimonials">
+        <h2>Testimonials</h2>
+        <div class="testimonials">
+          <blockquote>
+            "Vishal has a great eye for design and writes clean, maintainable code. Would work with him again!"
+            <cite>- Alex, Product Manager</cite>
+          </blockquote>
+          <blockquote>
+            "Super reliable and creative — our project was delivered ahead of time and exceeded expectations."
+            <cite>- Priya, Startup Founder</cite>
+          </blockquote>
+        </div>
+      </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li><strong>Weather App</strong> - A weather forecast app using OpenWeatherMap API.</li>
+        <li><strong>Portfolio Site</strong> - This portfolio with an animated background!</li>
+        <li><strong>To-Do List</strong> - A JavaScript to-do app with local storage.</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Reach out at <a href="mailto:vishalverma11220@gmail.com">vishalverma11220@gmail.com</a></p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2025 Vishal Verma. Built with ❤️ and JavaScript.</p>
+    <div style="margin-top:10px;">
+      <a href="https://www.linkedin.com/in/vishalverma1506/" target="_blank" style="color:#58a6ff; margin: 0 10px;">LinkedIn</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
